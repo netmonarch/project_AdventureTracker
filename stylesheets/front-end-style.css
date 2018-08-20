@@ -1,0 +1,81 @@
+body
+{
+	color:black;
+	font-family:arial;
+}
+
+
+
+.main-holder
+{
+	width:900px;
+}
+
+.main-table-holder
+{
+	width:100%;
+}
+
+.header-holder
+{
+	height:200px;
+}
+
+.header
+{
+	height:100%;
+	border: 2px solid black;
+	border-radius:25px 25px 0px 0px;
+	overflow:hidden;
+}
+
+.navi-holder
+{
+	height:50px;
+}
+
+.navi
+{
+	height:100%;
+	border: 2px solid black;
+}
+
+.middle-holder
+{
+	height:600px;
+}
+
+.floater
+{
+	float:right;
+	width:350px;
+	height:350px;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.middle
+{
+	height:100%;
+	border: 2px solid black;
+}
+
+.footer-holder
+{
+	height:35px;
+}
+
+.footer
+{
+	height:100%;
+	border: 2px solid black;
+	border-radius:0px 0px 25px 25px;
+	overflow:hidden;
+}
+
+.navi-list-item
+{
+	float:right;
+	list-style-type:none;
+	padding:0px 16px;
+}

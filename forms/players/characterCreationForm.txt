@@ -1,0 +1,2 @@
+<form name="characterCreation">
+</form>

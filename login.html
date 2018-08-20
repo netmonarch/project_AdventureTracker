@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="EN-us">
+	<head><title>DM View</title>
+	
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/front-end-style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+		
+		<script language="javascript">
+		</script>
+	</head>
+
+	<body>
+		
+		<center>
+			<div class="main-holder">
+				<table class="main-table-holder">
+					<tr>
+						<td class="header-holder">
+							<div class="header">1
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="navi-holder">
+							<div id="navi" class="navi" ng-app="linksapp" class="tabs-menu" id="navigation" ng:controller="NavigationController">
+								<ul class="navi-list">
+									<li class="navi-list-item" ng-repeat="item in items">
+										<a ng-class="{'active': item.id == states.activeItem}" ng-click="states.activeItem=item.id" href="#!{{item.id}}">{{item.title}}</a>
+									</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="middle-holder">
+							<div class="middle" id="middle">
+
+								Login Credentials
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="footer-holder">
+							<div class="footer">5
+							</div>
+						</td>
+					</tr>
+				
+				</table>
+			</div>
+		</center>
+		<script language="javascript" src="jscript/landingLinksController.js"></script>
+		<script language="javascript" src="jscript/landingTabsController.js"></script>
+	</body>
+
+</html>

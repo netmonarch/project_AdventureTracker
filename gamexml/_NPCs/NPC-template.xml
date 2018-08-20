@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+
+<NPC>
+	<name>
+	</name>
+	
+	<title>
+	</title>
+	
+	<race>
+	</race>
+	
+	<size>
+	</size>
+	
+	<alignment>
+	</alignment>
+	
+	<AC>
+	</AC>
+	
+	<ACType>
+	</ACType>
+	
+	<HP>
+	</HP>
+	
+	<speed>
+	</speed>
+	
+	<abilityScores>
+		<STR></STR>
+		<DEX></DEX>
+		<CON></CON>
+		
+		<INT></INT>
+		<WIS></WIS>
+		<CHA></CHA>
+	</abilityScores>
+	
+	<savingThrows>
+		<Strength>
+		</Strength>
+		
+		<Dexterity>
+		</Dexterity>
+		
+		<Constitution>
+		</Constitution>
+		
+		<Intellect>
+		</Intellect>
+		
+		<Wisdom>
+		</Wisdom>
+		
+		<Charisma>
+		</Charisma>
+	</savingThrows>
+	
+	<skills>
+		<!-- something like <skill arcana="10" /> -->
+	</skills>
+	
+	<damageResistances>
+	</damageresistances>
+	
+	<damageImmunities>
+	</damageImmunities>
+	
+	<conditionImmunities>
+	</conditionImmunities>
+	
+	<senses>
+		<!-- something like: <sense passivePerception="19" /> or <PP> </PP> -->
+	</senses>
+	
+	<languages>
+		<!-- something like: a comma-separated list of languages -->
+	</languages>
+	
+	<challenge>
+	</challenge>
+	
+	<abilities>
+		<!-- Spellcasting will include spell list
+			Something like: <spellcasting mod="9" dc="15"> </spellcasting>
+			
+			Innate Spellcasting will have its own spell list
+			Something like: <innateSpellcasting mod="8" dc="14"> </innateSpellcasting>
+		-->
+	</abilities>
+	
+	<actions>
+	</actions>
+	
+	<reactions>
+	</reactions>
+	
+	<legendaryActions>
+	</legendaryActions>
+	
+</NPC>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="EN-us">
+	<head><title>DM View</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="stylesheets/adv-style.css" />
+	</head>
+	
+	<body>
+		<span style="font-size:14px; font-weight:bold; float:right; padding:5px;">
+			Adventure Tracker 1.0
+		</span>
+		<center>
+		
+			<div class="title-bar">
+				{{AdvTitle}}
+			</div>
+		
+			<div class="main-holder">
+			
+				<div ng-app="linksapp" class="tabs-menu" id="tabs" ng:controller="NavigationController">
+					<ul class="tabs-list">
+						<li ng-repeat="item in items">
+							<a ng-class="{'active': item.id == states.activeItem}" ng-click="states.activeItem=item.id" href="#!{{item.id}}">{{item.title}}</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="current-tab"  id="curTab" ng-app="modPage">
+					<ng-view></ng-view>
+				</div>
+				
+			</div>
+		</center>
+		
+		<!-- ANGULARJS CONTROLLERS -->
+		<script src="jscript/linksController.js"></script>
+		<script src="jscript/tabsController.js"></script>
+	</body>
+	
+</html>

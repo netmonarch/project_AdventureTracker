@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+
+<Character>
+	<name></name>
+	<race></race>
+	<class></class>
+	
+	<HP></HP>
+	<AC></AC>
+	<speed></speed>
+	<passivePerception></passivePerception>
+	
+	<alignment></alignment>
+	<level></level>
+	<experience></experience>
+	
+	<physicalScores>
+		<STR>
+		</STR>
+		
+		<CON>
+		</CON>
+		
+		<DEX>
+		</DEX>
+	</physicalScores>
+	
+	<mentalScores>
+		<INT>
+		</INT>
+		
+		<WIS>
+		</WIS>
+		
+		<CHA>
+		</CHA>
+	</mentalScores>
+	
+	<saves>
+		<strength>
+		</strength>
+		
+		<constitution>
+		</constitution>
+		
+		<dexterity>
+		</dexterity>
+		
+		<intellect>
+		</intellect>
+		
+		<wisdom>
+		</wisdom>
+		
+		<charisma>
+		</charisma>
+	</saves>
+	
+	<skills>
+		<acrobatics></acrobatics>
+		<animalHandling></animalHandling>
+		<arcana></arcana>	
+		<athletics></athletics>
+		<deception></deception>
+		<history></history>
+		<insight></insight>
+		<intimidation></intimidation>
+		<investigation></investigation>
+		<medicine></medicine>
+		<nature></nature>
+		<perception></perception>
+		<performance></performance>
+		<persuasion></persuasion>
+		<religion></religion>
+		<sleightOfHand></sleightOfHand>
+		<stealth></stealth>
+		<survival></survival>
+	</skills>
+	
+	<proficiences>
+		<score>
+		</score>
+		
+		<armor>
+		</armor>
+		
+		<weapons>
+		</weapons>
+		
+		<tools>
+		</tools>
+		
+		<languages>
+		</languages>
+	</proficiences>
+	
+	<languages>
+	</languages>
+	
+	<background>
+		<traits>
+		</traits>
+		
+		<description>
+		</description>
+	</background>
+	
+	<features>
+		<background>
+		</background>
+		
+		<racial>
+		</racial>
+		
+		<class>
+		</class>
+		
+		<general>
+		</general>
+	</features>
+	
+	<equipment>
+		<weapons>
+		</weapons>
+		
+		<armor>
+		</armor>
+		
+		<other>
+		</other>
+	</equipment>
+	
+	<spells>
+	</spells>
+</Character>

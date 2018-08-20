@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+
+<Adventure>
+
+	<title></title>
+
+	<Players>
+	</Players>
+	
+	<NPCs>
+	</NPCs>
+	
+	<Calendar>
+		
+	
+		<beginningOfTime>
+		</beginningOfTime>
+		
+		<startOfAdventure>
+		</startOfAdventure>
+		
+		<currentTime>
+		</currentTime>
+		
+		<eventList>
+		
+			<event>
+			</event>
+			
+			<event>
+			</event>
+			
+			<event>
+			</event>
+			
+		</eventList>
+	</Calendar>
+	
+	<Initiative>
+	</Initiative>
+	
+	<Rewards>
+	</Rewards>
+	
+	<Locations>
+	</Locations>
+	
+	<Notes>
+		<NPCNotes>
+		</NPCNotes>
+		
+		<playerNotes>
+		</playerNotes>
+		
+		<developments>
+		</developments>
+	</Notes>
+	
+</Adventure>

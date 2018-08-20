@@ -1,0 +1,3 @@
+<?php #Abstract User class
+
+?>

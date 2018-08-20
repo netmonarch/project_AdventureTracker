@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="EN-us">
+	<head><title>DM View</title>
+	
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/front-end-style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+		
+		<script language="javascript">
+		</script>
+	</head>
+
+	<body>
+
+		<div id="reg" style="position:absolute; top:25%; left:25%; background:white; width:700px; height:500px; padding:5px; border:2px solid black;">
+				Fill out the form below to be considered a member.
+			<form ng-app="regFormApp" ng-controller="regCtrl">
+				<table>
+					<tr><td>Username:</td><td><input type="text" ng-blur="dbCheck()" ng-model="username" name="username" /></td><td rowspan="6">{{checkResponse}}</td></tr>
+					<tr><td>Password:</td><td><input type="password" ng-change="dbCheck()" ng-model="password" name="password" /></td></tr>
+					<tr><td>Confirm Password:</td><td><input type="password" ng-change="dbCheck()" ng-model="cpassword" name="cpassword" /></td></tr>
+					<tr><td>E-mail Address:</td><td><input type="email" ng-change="dbCheck()" ng-model="email" name="email" /></td></tr>
+					<tr><td>Confirm E-mail Address:</td><td><input type="email" ng-change="dbCheck()" ng-model="cemail" name="cemail" /></td></tr>
+					
+					<br />
+					<tr><td colspan="2"><center><input ng-click="submitReg()" type="button" name="submit" value="submit" /></center></td></tr>
+				</table>
+				<div>
+					{{gameResponse}}
+				</div>
+			</form>
+					
+		</div>
+		
+		<center>
+			<div class="main-holder">
+				<table class="main-table-holder">
+					<tr>
+						<td class="header-holder">
+							<div class="header">1
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="navi-holder">
+							<div id="navi" class="navi" ng-app="linksapp" class="tabs-menu" id="navigation" ng:controller="NavigationController">
+								<ul class="navi-list">
+									<li class="navi-list-item" ng-repeat="item in items">
+										<a ng-class="{'active': item.id == states.activeItem}" ng-click="states.activeItem=item.id" href="#!{{item.id}}">{{item.title}}</a>
+									</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="middle-holder">
+							<div class="middle" id="middle">
+
+								<ng-view></ng-view>
+							</div>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="footer-holder">
+							<div class="footer">5
+							</div>
+						</td>
+					</tr>
+				
+				</table>
+			</div>
+		</center>
+		<script language="javascript" src="jscript/landingLinksController.js"></script>
+		<script language="javascript" src="jscript/landingTabsController.js"></script>
+		<script language="javascript" src="jscript/regFormController.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,9 @@
+<form name="memberSignUp">
+	<input type="text" name="username" />
+	<input type="password" name="password" />
+	<input type="password" name="cpassword" />
+	<input type="text" name="email" />
+	<input type="text" name="cemail" />
+	
+	
+</form>
